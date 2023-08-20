@@ -1,0 +1,35 @@
+{
+  "name": "pica_profile",
+  "version": "1.0.0",
+  "description": "This is A small social media app for connecting Families when there are awayfrom each other",
+  "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "social",
+    "Media",
+    "profile",
+    "full-stack",
+    "app",
+    "post",
+    "user"
+  ],
+  "author": "IKRAM KHAN",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "nodemailer": "^6.9.4"
+  }
+}
